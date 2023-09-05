@@ -18,7 +18,7 @@ class Calculator {
     // 인스턴스 변수 -> 모든 함수(메서드)가 공유.
     // 지역 변수 -> 함수(메서드)가 단독으로 사용하는 변수(다른 함수 사용 X)
 
-    public void plus(int num1, int num2) {
+    public void plus(int num1, int num2) {  //int num1,int num 2는 지역변수
         result = num1 + num2;
 
         System.out.println(result);
